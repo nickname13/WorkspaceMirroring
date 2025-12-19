@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python
+*.py text diff=python
+
+# Sublime Text specific files
+*.sublime-commands text
+*.sublime-menu text
+*.sublime-settings text
+
+# Documentation
+*.md text diff=markdown
+LICENSE text
+
+# Exclude from export
+.gitattributes export-ignore
+.gitignore export-ignore
+
