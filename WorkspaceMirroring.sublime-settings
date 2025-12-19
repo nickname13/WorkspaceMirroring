@@ -1,0 +1,16 @@
+{
+    "enabled": true,
+    "remote_user": "",
+    "remote_host": "",
+    "local_base_dir": "",
+    "remote_base_dir": "",
+    "folders_to_sync": [
+        "/this/is/one/folder",
+        "/this/is/another/folder"
+    ],
+    "exclude_patterns": ["*.log", "*.tmp", "__pycache__/*"],
+    "timeout": 10,
+    "key_file": "",
+    "password_file": ""
+}
+

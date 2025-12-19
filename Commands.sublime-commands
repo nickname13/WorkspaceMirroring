@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Workspace Mirroring: Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/WorkspaceMirroring/WorkspaceMirroring.sublime-settings",
+            "user_file": "${packages}/User/WorkspaceMirroring.sublime-settings"
+        }
+    }
+]
